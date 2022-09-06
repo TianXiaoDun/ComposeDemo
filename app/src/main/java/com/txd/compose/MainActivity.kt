@@ -49,8 +49,8 @@ class MainActivity : ComponentActivity() {
             ComposeDemoTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
 //                    MessageCard(Message("Android", "Jetpack Compose"))
-//                    Conversation(SampleData.conversationSample)
-                    GetContentExample()
+                    Conversation(SampleData.conversationSample)
+//                    GetContentExample()
                 }
             }
         }
